@@ -2,6 +2,9 @@ import torch
 import torch.nn as nn
 from MultiHeadAttention import MultiHeadAttention
 from TransformerEncoder import FeedForwardSubLayer
+from TransformerEncoder import TransformerEncoder
+import torch.nn.functional as F
+from TransformerDecoder import tgt_mask
 from InputEmbeddings import InputEmbeddings
 from PositionalEncoding import PositionalEncoding
 
